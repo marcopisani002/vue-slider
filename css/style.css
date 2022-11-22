@@ -3,3 +3,20 @@ body {
     background: rgb(58, 60, 180);
     background: linear-gradient(12deg, rgb(20, 20, 20) 0%, rgb(0, 0, 0) 50%, rgb(94, 94, 94) 100%);
   }
+  .thumbnail-section {
+    opacity: .6;
+    transition: all .5s;
+  }
+  
+  .thumbnail-section.active {
+    border-bottom: 2px solid rgb(141, 141, 141);
+    opacity: 1;
+  }
+  
+  .btns-section {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+  }
